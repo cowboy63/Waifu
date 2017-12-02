@@ -9,10 +9,10 @@
           "js": ["scripts/content.js"]
         } ],
 
-      "browser_action": [ {
+      "browser_action": {
         "default_icon": "icon.png",
         "popup": "popup.html"
-      } ]
+      }
 
       /*
             "background": {
