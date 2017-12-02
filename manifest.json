@@ -1,22 +1,30 @@
 {
-  "manifest_version": 2,
   "name": "Waifu",
-  "version": "1.0",
-  "description": "The best Waifu extension out there.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Waifu Home Page",
 
-  "background": {
-    "scripts":["scripts/background.js"]
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
 
-  "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "css": ["styles.css"],
-        "js": ["scripts/content.js"]
-      } ],
-
-    "browser_action": {
-      "default_icon": "icon/icon16.png",
-      "popup": "popup.html"
-    }
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "page_action": {
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/override/override.html"
+  },
+  "permissions": [
+    "notifications",
+    "tabs"
+  ]
 }
