@@ -19,11 +19,4 @@
       "default_icon": "icon/icon16.png",
       "popup": "popup.html"
     }
-
-    /*
-          "background": {
-      "scripts": ["background.js"]
-    }
-  */
-
 }
