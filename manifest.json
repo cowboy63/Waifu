@@ -1,16 +1,19 @@
 {
     "manifest_version": 2,
     "name": "Waifu",
+<<<<<<< HEAD
     "version": "1.0",
     "description": "The best Waifu extension out there.",
+=======
+    "version": "0.1",
+>>>>>>> cfef177200db5c2a00798dd558ea2dc79009c4e0
 
     "content_scripts": [
         {
-          "matches": [
-            "<all_urls>"
-          ],
-          "js": ["content.js"]
+          "css": ["styles.css"],
+          "js": ["scripts/content.js"]
         }
+<<<<<<< HEAD
       ],
 
       "browser_action": {
@@ -24,5 +27,19 @@
       }
     */
 
+=======
+      ],/*
+      "browser_action": {
+        "default_icon": "icon.png"
+      },*/
+      "background": {
+        "scripts": ["scripts/background.js"]
+      },
+      "permissions": [
+        "activeTab",
+        "storage"
+      ]
+    
+>>>>>>> cfef177200db5c2a00798dd558ea2dc79009c4e0
   }
   
