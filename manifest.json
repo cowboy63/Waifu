@@ -16,7 +16,7 @@
     "persistent": true
   },
   "options_page": "src/options/index.html",
-  "page_action": {
+  "browser_action": {
     "default_title": "Waifu",
     "default_popup": "src/page_action/page_action.html"
   },
