@@ -17,7 +17,7 @@
   },
   "options_page": "src/options/index.html",
   "page_action": {
-    "default_title": "page action demo",
+    "default_title": "Waifu",
     "default_popup": "src/page_action/page_action.html"
   },
   "chrome_url_overrides": {
