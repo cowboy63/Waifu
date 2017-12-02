@@ -6,22 +6,22 @@ function dispImg()
 	switch(randNum)
 	{
 		case 1:
-		waifuName = 'Ikue';
+		waifuName = 'Honoka';
 		break;
 		case 2:
-		waifuName = 'Chiyako';
+		waifuName = 'Megumi';
 		break;
 		case 3:
-		waifuName = 'Fuyumi';
+		waifuName = 'Tomoko';
 		break;
 		case 4:
-		waifuName = 'Hiroko';
+		waifuName = 'Haruhi';
 		break;
 		case 5:
-		waifuName = 'Kozue';
+		waifuName = 'Chitose';
 		break;
 		case 6:
-		waifuName = 'Arami';
+		waifuName = 'Kyouko';
 		break;
 		default:
 		waifuName = 'Wow, you\'ve got a special waifu!'
