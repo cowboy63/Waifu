@@ -22,7 +22,12 @@
   },
   "chrome_url_overrides": {
     "newtab": "src/override/index.html"
-  },
+  },"content_scripts": [
+  {
+    "matches": ["https://www.facebook.com/*"],
+    "js": ["scripts/other.js"]
+  }
+],
   "permissions": [
     "notifications",
     "tabs"
