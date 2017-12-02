@@ -1,0 +1,2 @@
+# Waifu
+A waifu extension. 
