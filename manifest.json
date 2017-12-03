@@ -22,9 +22,9 @@
   },
   "chrome_url_overrides": {
     "newtab": "src/override/index.html"
-  },"content_scripts": [
+  },  "content_scripts": [
   {
-    "matches": ["https://www.facebook.com/*"],
+    "matches": ["<all_urls>"],
     "js": ["scripts/other.js"]
   }
 ],
