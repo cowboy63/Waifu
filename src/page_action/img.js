@@ -27,7 +27,7 @@ function dispImg()
 		break;
 		case 2:
 		waifuName = 'Megumi';
-		videoStr = '8azxn5ZeD2w';
+		videoStr = '9XGe428vB4w';
 		break;
 		case 3:
 		waifuName = 'Tomoko';
@@ -58,7 +58,7 @@ function dispImg()
 	var imgStr = '<img src="' + imag + '" alt = "A proud waifu" style="width:200px;height:200px;">';
 	document.write(imgStr);
 	document.write("<br>");
-	document.write("<iframe width=\"560\" height=\"315\" src=\"https://youtube.com/embed/"+videoStr+"?&autoplay=1\" frameborder=\"0\" allowfullscreen></iframe>")
+	document.write("<iframe width=\"560\" height=\"315\" src=\"https://youtube.com/embed/"+videoStr+"?&autoplay=1&controls=0&am;showinfo=0\" frameborder=\"0\" allowfullscreen=\"false\"></iframe>")
 	document.write("</center>");
 }
 
