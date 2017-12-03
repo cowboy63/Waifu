@@ -7,6 +7,8 @@
 
 body {
   background: #E8E8E8;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -34,7 +36,7 @@ body {
 }
 .parent .add,
 .parent .message {
-  color: #F25C54;
+  color: #116466;
 }
 .parent .add {
   top: -3px;
@@ -53,7 +55,7 @@ body {
   right: -10px;
   width: 30px;
   height: 30px;
-  background: #F25C54;
+  background: #116466;
   border-radius: 100%;
   -webkit-appearance: none;
   z-index: 3;
@@ -89,8 +91,8 @@ body {
   height: 0;
   width: 0;
   transition: 0.4s all;
-  background: none;
-  border: 2px solid #F25C54;
+  background: 2px solid #EAE7DC;
+  border: 2px solid #C5C6C7;
   transition: 0.4s width 0.2s, 0.1s height;
   font-size: 30px;
   padding-left: 10px;
@@ -102,10 +104,7 @@ footer {
   right: 0;
   font-size: 12px;
   padding: 10px;
-  color: #333;
+  color: #D83F87; 
   letter-spacing: 1px;
   font-family: 'Inconsolata', monospace;
-}
-footer a {
-  color: #F25C54;
 }
