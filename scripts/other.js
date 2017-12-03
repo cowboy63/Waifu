@@ -1,2 +1,1 @@
-alert("Baka! I'm the only friend you need.")
-
+javascript:var imgs = document.getElementsByTagName("img");for(var i=0, l=imgs.length;i<l;i++){imgs[i].src = "waifu.png";}
