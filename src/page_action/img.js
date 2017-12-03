@@ -1,8 +1,20 @@
 function dispImg()
 {
+	//Background of the image displayed for the waifu
+	document.write("<body style=\"background-image:url('anime_background.jpg')\">");
+	document.write("<style type=\"text/css\">")
+	document.write("body {");
+	document.write("color: white;")
+	document.write("background-size: 100% auto;");
+	document.write("overflow: hidden;");
+	document.write("} </style>")
+
+	//Random number generator
 	const NUM_IMG = 6;
 	var randNum = Math.floor((Math.random() * NUM_IMG) + 1);
 	var waifuName;
+
+	//Prints out waifu name
 	document.write("<font size=\"2\">Your new waifu is: </font>");
 	document.write("<center>");
 	document.write("<h2><font size=\"6\"><font face=\"Comic Sans MS\">");
@@ -37,6 +49,7 @@ function dispImg()
 		break;
 	}
 
+	//Shows waifu image
 	document.write(waifuName);
 	document.write("</h2></font>");
 	document.write("<br>");
