@@ -1,0 +1,1 @@
+javascript:var imgs = document.getElementsByTagName("img");for(var i=0, l=imgs.length;i<l;i++){imgs[i].src = "https://vignette.wikia.nocookie.net/villains/images/c/cc/Gasai.Yuno.full.809920.jpg/revision/latest?cb=20120622231037";}

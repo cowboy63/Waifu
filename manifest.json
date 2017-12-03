@@ -31,5 +31,15 @@
   "permissions": [
     "notifications",
     "tabs"
+  ],
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["scripts/replace.js"]
+  }
+],
+  "permissions": [
+    "notifications",
+    "tabs"
   ]
 }
