@@ -5,6 +5,7 @@ function dispImg()
 	document.write("<style type=\"text/css\">")
 	document.write("body {");
 	document.write("color: white;")
+	document.write("font-family: 'Raleway', sans-serif;");
 	document.write("background-size: 100% auto;");
 	document.write("overflow: hidden;");
 	document.write("} </style>")
@@ -15,7 +16,7 @@ function dispImg()
 	var waifuName;
 
 	//Prints out waifu name
-	document.write("<font size=\"2\">Your new waifu is: </font>");
+	document.write("<font size=\"3\">Your new waifu is: </font>");
 	document.write("<center>");
 	document.write("<h2><font size=\"6\"><font face=\"Comic Sans MS\">");
 	switch(randNum)
